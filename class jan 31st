@@ -1,0 +1,22 @@
+# class 1/31
+```
+public class genericExample{
+  public static void main(String... args){
+    Arraylist<String>list = new Arraylist<>();
+  }
+  ```
+  ### Arraylist
+
+* an array list can grow infinitaly,
+takes up one spot in stack, and resides in the heap
+
+* have to import java.util.Arraylist;
+
+in the heap there are nodes
+, nodes have next and data, doesnt know data type
+
+### upper bounds and lower bounds
+
+* <E extends shape lets anything make shape grow
+
+* <E extends Comparable(?super E), E==String
