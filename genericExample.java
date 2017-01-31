@@ -11,7 +11,7 @@ public class genericExample{
     System.out.println(list.contains ("Lauren"));
     String firstName = list.get(1);
     System.out.println(firstName);
-    String lastName = list.get(2);
+    String lastName = list.get(0);
 
   }
 }
